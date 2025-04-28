@@ -19,6 +19,7 @@
 - [무기와 아이템 클래스의 추상화](#무기와-아이템-구현)
 - [공격 이펙트(파티클 시스템으로 구현)](#공격-이펙트-파티클-시스템)
 - [사운드 이펙트 + 사운드 조합 기능](#사운드-이펙트--사운드-조합-기능)
+이 외에도 다양한 부분을 구현 했지만 핵심이 되는 부분은 위와 같습니다
 
 ## 🎥Demo
 WebGL 버전 배포판입니다. 
@@ -212,6 +213,9 @@ public abstract class ProjectileBehaviour : MonoBehaviour
 - 이 사운드 클립을 여러 개 이어 붙힘
 
 이 기능으로 포탑이 공격을 차징하는 소리, 트로이 목마 중간 보스의 돌진 소리를 구현하였습니다.  
+
+👉[사운드 프리셋](https://github.com/tpwls6630/team-project-for-2024-fall-swpp-team-21/blob/main/Computer%20Virus%20Survivors/Assets/Scripts/SFXSequencePreset.cs)
+👉[사운드 매니저](https://github.com/tpwls6630/team-project-for-2024-fall-swpp-team-21/blob/main/Computer%20Virus%20Survivors/Assets/Scripts/SFXManager.cs)
   
 ### <포탑 공격 차지>  
 continous_beam_4 사운드를 0초부터 1초까지 실행하고  
