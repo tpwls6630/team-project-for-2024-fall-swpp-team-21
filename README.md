@@ -1,6 +1,8 @@
 # Computer Virus Survivors
 3D로 구현한 뱀서라이크 게임입니다.
-메모리 공간에서 끊임 없이 생성되는 바이러스들을 컴퓨터 백신이 되어 물리치는 컨셉의 게임입니다.
+메모리 공간에서 끊임 없이 생성되는 바이러스들을 컴퓨터 백신이 되어 물리치는 컨셉의 게임입니다.  
+![image](https://github.com/user-attachments/assets/fd27a1d3-cce8-493f-8e0d-c757040b6c89)
+
 ## 👨‍💻팀원
 - 이*혁 (PM, Designer)
 - 우세진 (Programmer)
